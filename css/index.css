@@ -1,0 +1,341 @@
+@charset "utf-8";
+
+
+#banner1 {
+    width: 1230px;
+    height: 650px;
+    margin: 0 auto;
+    padding-top: 200px;
+    text-align: center;
+
+}
+
+#banner1 img {
+    width: 275px;
+    height: 175px;
+}
+
+#banner1 h6 {
+    font-family: 'HSJiptokki-Round';
+    font-size: 12px;
+}
+
+div>h1 {
+    margin: 20px 0px 0px 0px;
+}
+
+h1 {
+    line-height: 70px;
+}
+
+div>h6 {
+    margin: 5px 0px 0px 0px;
+}
+
+
+#slider {
+    width: 1240px;
+    height: 290px;
+
+    margin: 0 auto;
+}
+
+#slider img {
+    width: 100%;
+}
+
+/*#sec1*/
+
+#sec1 {
+    width: 1240px;
+    height: 700px;
+
+    margin: 0 auto;
+    padding-top: 200px;
+}
+
+
+#sec1>div {
+    width: 305px;
+    height: 430px;
+
+    float: left;
+    text-align: center;
+    cursor: pointer;}
+
+#sec1>div:nth-of-type(2),
+#sec1>div:nth-of-type(3),
+#sec1>div:last-of-type {
+    margin-left: 6px;
+}
+
+#sec1>div:nth-of-type(1) {
+    padding-top: 20px
+}
+
+#sec1>div:nth-of-type(3) {
+    padding-top: 1px
+}
+
+#sec1 img {
+    width: 98%;
+}
+
+
+#sec1 p {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#sec1 p span:nth-of-type(1) {
+    font-size: 30px;
+    line-height: 75px;
+    letter-spacing: -2px
+}
+
+
+
+#sec1 .a p {
+    margin-top: 2px;
+}
+
+#sec1 .a p .span2 {
+    font-family: 'HSJiptokki-Round';
+}
+
+#sec1 .a:hover span{color: #e96781;
+    }
+
+#sec1 .b p {
+    margin-top: -7px;
+}
+
+#sec1 .b p .span2 {
+    font-family: 'HSJiptokki-Round';
+}
+
+#sec1 .b:hover span {color: #5ea2bf;}
+
+#sec1 .c p {
+    margin-top: -20px;
+}
+
+#sec1 .c p .span2 {
+    font-family: 'HSJiptokki-Round';
+}
+
+#sec1 .c img {
+    height: 346px;
+}
+
+#sec1 .c:hover span {color:#efc760;}
+
+#sec1 .d p {
+    margin-top: -20px;
+}
+
+#sec1 .d .span2 {
+    font-family: 'HSJiptokki-Round';
+}
+#sec1 .d:hover span {
+    color: #80b867;
+}
+/*#sec2*/
+#sec2 {
+    width: 1330px;
+    height: 655px;
+    background-color: #5ea2bf;
+
+    margin: 0 auto;
+    border-radius: 55px;
+    position: relative;
+}
+
+.b1 {
+    position: absolute;
+    width: 233px;
+    height: 121px;
+    bottom: 167px;
+    left: 0px;
+    transform: scale(0.9);
+}
+
+.b2 {
+    position: absolute;
+    width: 265px;
+    height: 180px;
+    bottom: 13px;
+    left: 101px;
+    transform: rotate(10deg)scale(0.8);
+}
+
+.b3 {
+    position: absolute;
+    width: 160px;
+    height: 160px;
+    bottom: 25px;
+    left: 305px;
+    transform: scale(0.5)rotate(-40deg);
+  
+}
+
+.flo {
+    position: absolute;
+    width: 95px;
+    height: 100px;
+    bottom: 0px;
+    left: 510px;
+    transform: scale(0.92);
+}
+
+.b4 {
+    position: absolute;
+    width: 600px;
+    height: 590px;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-48%);
+}
+
+#sec2>h2 {
+    color: white;
+    font-size: 88px;
+    line-height: 125px;
+    position: absolute;
+    top: 40px;
+    left: 60px;
+    letter-spacing: -4px;
+}
+
+#sec2>h2 span {
+    font-size: 63px;
+    position: relative;
+    left: 25px;
+}
+
+
+
+/*#sec3*/
+#sec3 {
+    width: 1240px;
+    height: 1060px;
+
+    margin: 0 auto;
+    position: relative;
+}
+
+#sec3 h1 {
+    text-align: center;
+    line-height: 60px;
+    font-size: 40px;
+    padding: 143px 0 0 0px;
+    position: relative;
+}
+
+.span3 {
+    word-spacing: 20px;
+}
+
+#sec3 div {
+    text-align: left;
+    width: 550px;
+    height: auto;
+    font-family: 'UhBeeSe_hyun';
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;}
+
+#sec3 .lo1 img {
+    transform: rotate(45deg);
+    margin-left: -120px;
+    margin-top: 56px;
+}
+
+#sec3 .lo1 {
+    position: absolute;
+    left: 150px;
+}
+
+#sec3 .lo2 {
+    position: absolute;
+    right: 70px;
+    top: 450px;
+}
+
+#sec3 .lo2 img {
+    width: 300px;
+    transform: rotate(10deg);
+    margin-left: 70px;
+    margin-bottom: 80px;
+    margin-top: -10px;
+}
+
+#sec3 .lo3 {
+    position: absolute;
+    bottom: 80px;
+    right: 187px;
+}
+
+#sec3 .lo3 img {
+    transform: rotate(-20deg);
+    margin-left: -272px;
+    margin-bottom: -20px;
+}
+
+/*#sec4*/
+#sec4 {
+    width: 1240px;
+    height: 500px;
+
+    margin: 0 auto;
+}
+
+#sec4 img {
+    margin: 0px 187px 0px 187px;
+}
+
+/*#sec5*/
+#sec5 {
+    width: 1240px;
+    height: 1180px;
+
+    margin: 0 auto;
+    position: relative;
+}
+
+#sec5 .h1:hover{transform: scale(1.1);transition: 0.3s;    }
+#sec5 .h1 a:active {color: #e96781;}
+#sec5 h1 a{text-decoration: none;}
+#sec5 h4 {
+    font-family: 'UhBeeSe_hyun';
+    padding-top: 33px;
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: -22px;
+}
+
+#sec5 h1 {
+    font-size: 40px;
+    text-align: center;
+    line-height: 93px;
+}
+
+/*#sec5 img*/
+.flex {
+    height: 815px;
+    width: 100%;
+    margin-top: 52px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.flex div {
+    width: 33%;
+    height: 50%;
+}
+
+.flex img {
+    width: 100%;
+    height: 100%;
+}

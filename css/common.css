@@ -1,0 +1,347 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: 'EF_jejudoldam';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2210-EF@1.0/EF_jejudoldam.woff2') format('woff2'), format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HSJiptokki-Round';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/HSJiptokki-Round.woff2') format('woff2');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'UhBeeSe_hyun';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_five@.2.0/UhBeeSe_hyun.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {text-decoration: none; color: black;}
+
+
+body {
+    background-color: #ffa6bc;
+    font-family: 'EF_jejudoldam';
+}
+
+#wrap {
+    width: 1370px;
+    margin: 0 auto;
+    padding: 47px 20px;
+    margin-top: 100px;
+    background-color: #f9f1dc;
+    border-radius: 40px 40px 0 0;
+}
+
+#top {
+    width: 1330px;
+    height: 720px;
+    margin: 0 auto;
+    border-radius: 30px 30px 0 0;
+    position: relative;
+    background-color: #ffa6bc;
+}
+
+
+header {
+    width: 90%;
+    height: 90px;
+    margin: 0 auto;
+    padding-top: 15px;
+}
+
+#the {
+    font-size: 100px;
+    text-align: center;
+    color: #ffffff;
+    position: relative;
+    top: 30px;
+}
+
+#the .sp {
+    font-size: 40px;
+}
+
+.login {
+    width: 180px;
+    height: 75px;
+    float: right;
+    position: relative;
+    top: 11px;
+
+    font-family: 맑은고딕;
+}
+
+
+
+.login p {
+    position: absolute;
+    top: 47%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-weight: bold;
+}
+.login img{width:180px; height: 74px;}
+nav {
+    width: 565px;
+    height: 30px;
+
+    margin: 30px auto;
+}
+
+nav>ul {
+    font-size: 16px;
+    font-family: 맑은고딕;
+    font-weight: bold;
+    margin: 0px 15px;
+}
+
+nav>ul>li {
+    float: right;
+    margin: 2px 43px;
+}
+
+nav>ul>li>a {
+    text-decoration: none;
+    color: white;
+}
+nav>ul>li>a {cursor: pointer;}
+nav>ul>li>a:hover{text-decoration-line: underline;}
+#hea .hea1 {
+    position: absolute;
+
+    left: 100px;
+}
+
+#hea .hea1 img {
+    width: 197px;
+    height: 216px;
+    margin-top: -130px;
+    margin-left: -34px;
+    transform: rotate(20deg) scale(0.85);
+}
+
+#hea .hea2 {
+    position: absolute;
+    bottom: -40px;
+    left: -120px;
+    transform: rotate(130deg) scale(1.15);
+    z-index: 4;
+}
+
+
+
+#hea .hea3 {
+    position: absolute;
+    bottom: 100px;
+    z-index: 5;
+}
+
+#hea .hea3 img {
+    width: 145px;
+    height: 149px;
+    margin-bottom: -40px;
+     transform: rotate(-15deg);
+    margin-left: 453px;
+   
+}
+
+#hea .hea4 img {
+    width: 128px;
+    height: 178px;
+    position: absolute;
+    right: 0;
+    margin-right: 185px;
+    z-index: 5;
+    transform: rotate(-15deg)scale(1.15);
+}
+
+#hea .hea5 img {
+    position: absolute;
+    right: 0;
+    z-index: 4;
+    margin-right: -20px;
+    margin-top: -110px;
+    
+}
+
+.roundbox {
+    width: 100%;
+    height: 147.7px;
+    position: absolute;
+    bottom: -73.8px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.roundbox div {
+    width: 147.7px;
+    height: 147.7px;
+    border-radius: 50% 50%;
+    background-color: #ffa6bc;
+    flex: 1;
+    z-index: 1;
+}
+
+/*footer*/
+
+footer {
+    width: 1330px;
+    height: 655px;
+    margin: 0 auto;
+    background-color: #ffa6bc;
+    border-radius: 0 0 30px 30px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    }
+
+.footertext {
+    width: 1240px;
+    height: 550px;
+   
+    color: #ffffff;
+}
+
+.footertext {
+    font-size: 36px;
+margin-bottom: -55px;}
+
+.footertext > img {
+    margin-left: 655px;
+    left:46px;
+    
+     position: absolute;
+     top:85px;
+    transform: scale(0.9);
+    /* rotateX(50deg);
+    rotateY(150deg);
+    rotateZ(250deg); */
+    animation: flower  4s infinite linear;
+}
+
+
+
+@keyframes flower{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+
+
+
+
+
+#footer .footertext2 {
+    font-family: 'UhBeeSe_hyun';
+    font-weight: bold;
+    position: absolute;
+    bottom: 28px;
+    left: 50px;
+    padding-bottom: 20px;
+text-align: center;
+cursor: pointer;
+}
+#footer .footertext2  div:hover:nth-of-type(1),#footer .footertext2  div:hover:nth-of-type(2),#footer .footertext2  div:hover:nth-of-type(3),#footer .footertext2  div:hover:nth-of-type(4),#footer .footertext2  div:hover:nth-of-type(5){color: #e96781;}
+
+#last{width: 800px;height:450px;  position: absolute; right: 0;
+    }
+#last img{transform:scale(0.5);}
+/* #last div:nth-of-type(1){    position: relative;
+    left: 100px;
+    top: 0;
+    
+    animation: ball 1s ease-in Infinite Alternate;}
+    
+*/
+
+@keyframes ball {
+    0% {
+        top: 0px;
+    }
+
+    95% {
+        width: 500px;
+    }
+
+    100% {
+        top: 550px;
+        width: 115px;
+        height: 90px
+    }
+}
+
+#last .frist {position: absolute;bottom: 0px; left:-100px; width: 600px;
+transform: rotate(-20deg) scale(0.9);
+}
+
+
+#last p{color: #ffffff; font-family:'UhBeeSe_hyun';
+    font-size:70px; font-weight:bolder;}
+#last .frist p {color: #ffffff; font-family:'UhBeeSe_hyun';
+font-size:40px; font-weight:bolder;transform: rotate(15deg);
+position: absolute; bottom: 80px;left: 105px;}
+#last .pink {position: absolute; right: 250px; bottom:-100px;
+transform: rotate(-42deg) scale(1.25);}
+#last .pink p{position: absolute;bottom: 210px; left:157px; font-size: 26px;
+transform: rotate(40deg);}
+#last .yellow {position: absolute; right: -49px;top:48px;transform: rotate(15deg) scale(0.88); }
+
+#last .yellow p {position: absolute; bottom: 238px; left: 122px; transform: rotate(-14deg); font-size: 36px;}
+#last .green {position: absolute; top: -212px;right:-6px; transform:rotate(15deg) scale(1.2);
+z-index: 2;}
+#last .green p {position: absolute; bottom:158px; font-size: 27px;
+transform: rotate(-15deg); left: 69px;}
+#last .blue {position: absolute; right:404px; margin-right: -100px;
+    
+     transform: rotate(-8deg) scale(1.7);
+top: 16px;}
+#last .blue p {position: absolute; bottom: 100px; left: 50px;
+;font-size:23px; transform: rotate(5deg);}
+
+
+/*round2*/
+
+.roundbox2 {
+    width: 100%;
+    height: 147.7px;
+    position: absolute;
+    top: -73.8px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.roundbox2 div {
+    width: 147.7px;
+    height: 147.7px;
+    border-radius: 50% 50%;
+    background-color: #ffa6bc;
+    flex: 1;
+  
+}
