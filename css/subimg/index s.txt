@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+
+    <div id="top">
+        <header>
+            <div class="login">
+                <a href="#">
+                    <img src="img/Asset 42@3x.png" alt="egg">
+                    <p>login</p>
+                </a>
+            </div>
+
+            <nav>
+                <ul>
+                    <li><a href="#">shop</a></li>
+                    <li><a href="#">about</a></li>
+                    <li><a href="#">masters</a></li>
+                    <li><a href="#">words</a></li>
+                </ul>
+            </nav>
+        </header>
+
+
+
+        <div class="roundbox">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+
+    </div>
+
+
+    <div id="banner1">
+        <img src="img/Asset 22@3x.png" alt="">
+
+        <h1>Working with clay <br>
+            is a tactile experience</h1>
+        <h6>the sensation of creationg a functional object from one»s bare hands is unique.</h6>
+
+    </div>
+
+    <div id="slider">
+    </div>
+
+    <section id="sec1">
+
+        <div class="a">
+            <a href="#"><img src="img/Asset 13@3x.png"></a>
+            <p>
+                <span style="color:#b4d19b;">tim neve</span>
+                <br>
+                <span class="span2">Arch Armchair</span>
+            </p>
+        </div>
+
+        <div class="b">
+            <a href="#"><img src="img/Asset 14@3x.png"></a>
+            <p><span style="color:#f4d58d;">tend.ed</span><br>
+                <span class="span2">Chess Army</span>
+            </p>
+        </div>
+
+        <div class="c">
+            <a href="#"><img src="img/Asset 15@3x.png"></a>
+            <p><span style="color:#76afb0;">jardan</span><br>
+                <span class="span2">Ca Mirror</span>
+            </p>
+        </div>
+
+        <div class="d">
+            <a href="#"><img src="img/Asset 12@3x.png"></a>
+            <p><span style="color: #e1898e;">baina</span><br>
+                <span class="span2">COnda Mirror</span>
+            </p>
+        </div>
+
+
+    </section>
+    <section id="sec2">
+        <h2>Works <span>of</span><br> <span>The</span> Week</h2>
+        <div class="b1"><a href="#"><img src="img/Asset 45@3x.png" alt="b1"></a></div>
+        <div class="b2"><a href="#"><img src="img/Asset 19@3x.png" alt="b2"></a></div>
+        <div class="b3"><a href="#"><img src="img/Asset 20@3x.png" alt="b3"></a></div>
+        <div class="flo"><a href="#"><img src="img/Asset 43@3x.png" alt="flo"></a></div>
+        <div class="b4"><a href="#"><img src="img/Asset 26@3x.png" alt="b4"></a></div>
+    </section>
+
+    <section id="sec3">
+        <h1>I love pink is aplace that <br>open up new  cute  masters</h1>
+    <div class="lo1"><img src="img/Asset 46@3x.png" alt="">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit,<br> sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris<br> nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor<br> in reprehenderit </div>
+    <div class="lo2"><img src="img/Asset 24@3x.png" alt="">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit,<br> sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris<br> nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor<br> in reprehenderit </div>
+    <div class="lo3"><img src="img/Asset 47@3x.png" alt="">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit,<br> sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris<br> nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor<br> in reprehenderit </div>
+    </section>
+
+
+    <section id="sec4"></section>
+    <section id="sec5"></section>
+
+
+
+    <footer></footer>
+</body>
+
+</html>
