@@ -89,8 +89,10 @@ header {
     top: 11px;
 
     font-family: 맑은고딕;
+    
 }
-
+.login:hover{transform: scale(1.1);
+    transition: all ease-in-out;}
 
 
 .login p {
@@ -102,31 +104,31 @@ header {
     font-weight: bold;
 }
 .login img{width:180px; height: 74px;}
-nav {
+header nav {
     width: 565px;
     height: 30px;
 
     margin: 30px auto;
 }
 
-nav>ul {
+header nav>ul {
     font-size: 16px;
     font-family: 맑은고딕;
     font-weight: bold;
     margin: 0px 15px;
 }
 
-nav>ul>li {
-    float: right;
+header nav>ul>li {
+    float: left;
     margin: 2px 43px;
 }
 
-nav>ul>li>a {
+header nav>ul>li>a {
     text-decoration: none;
     color: white;
 }
-nav>ul>li>a {cursor: pointer;}
-nav>ul>li>a:hover{text-decoration-line: underline;}
+header nav>ul>li>a {cursor: pointer;}
+header nav>ul>li>a:hover{text-decoration-line: underline;}
 #hea .hea1 {
     position: absolute;
 
